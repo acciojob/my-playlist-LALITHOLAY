@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+body {
+      background-color: #cccccc;
+    }
+.head{
+	text-align:center
+}
+.head2{
+	background-color:white;}
+ul {
+  list-style: none;
+	padding:10px;
+}
+#new{
+	text-align:center;
+	margin-top:5px;
+}
+source{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    .player_one {
+      margin-bottom: 20px;
+    }
+    .player_two video {
+      max-width: 50%;
+      max-height: 50%;
+      margin: auto;
+    border-bottom: 150px solid white;
+      border-left: 10px solid white;
+      border-right: 10px solid white;
+		border-top:10px solid white;
+		display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content: center;
+    }
+  .player_three {
+      text-align: center;
+      margin-top: -150px; /* Adjust this value to position the player below the image */
+    }
+
+    .player_three {
+      padding: 1px 0px;
+    }
+
+    .player_three audio {
+      margin-top: 0px;}
+
+    
+    
